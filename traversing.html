@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script/script.js"></script>
+</head>
+
+<body>
+
+    <div id="wrap">
+        <header id="header">
+            <div id="headerLogo">헤더로고</div>
+            <nav id="gnb">
+                <ul id="mainMenu">
+                    <li>
+                        <span>메인메뉴1</span>
+                        <ul class="subMenu">
+                            <li><span>서브메뉴1-1</span></li>
+                            <li><span id="test">서브메뉴1-2</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>메인메뉴2</span>  <!-- 기준 -->
+                        <ul class="subMenu">
+                            <li><span>서브메뉴2-1</span></li>
+                            <li><span>서브메뉴2-2</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>메인메뉴3</span>
+                        <ul class="subMenu">
+                            <li><span>서브메뉴3-1</span></li>
+                            <li><span>서브메뉴3-2</span></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+
+    <!--
+    div#wrap>header#header>div#headerLogo{헤더로고}+nav#gnb>ul#mainMenu>li*3>span{메인메뉴$}+ul.subMenu>li*2>span{서브메뉴-$}
+    -->
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
